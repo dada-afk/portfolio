@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+#header {
+    background: linear-gradient(45deg, #820263, #D90368, #FFD400);
+    color: #EADEDA;
+    height: 100vh;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-h1 {
+    color: #2E294E;
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+#name:hover {
+    transition: 0.3s;
+    color: #2E294E;
+}
+
+#nav-bar {
+    background: linear-gradient(45deg, #820263, #D90368, #FFD400);
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    position: fixed;
+    right: 0;
+    width: 100vw;
+}
+
+#nav-bar li {
+    list-style-type: none;
+}
+
+#nav-list {
+    display: flex;
+}
+
+.nav {
+    color: #2E294E;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2em;
+    padding: 1em 2em;
+}
+
+.nav:hover {
+    color: #820263;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+#work-section {
+    background: #2E294E;
+    color: #EADEDA;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: inline-flex;
+}
+
+#work-section a {
+    color: #EADEDA;
+    text-decoration: none;
+}
+
+.profile-link:hover {
+    border-bottom: 2px solid #EADEDA;
+}
+
+.work-tile {
+    width: 20vw;
+    height: 28vh;
+    margin: 1em;
+    background-size: cover;
+    border-radius: 20px;
+    border: 10px solid #EADEDA;
+    transition: 0.5s ease-in-out;
+    background-position: 50% 50%;
+}
+
+.work-tile:hover {
+    transform: scale(1.05, 1.05);
+}
+
+#tic-tac-toe {
+    background-image: url(./imgs/tic-tac-toe-project.png);
+}
+
+#unit-converter {
+    background-image: url(./imgs/unit-converter-project.png);
+}
+
+#basketball-counter {
+    background-image: url(./imgs/basketball-counter-project.png);
+}
+
+#contact-section {
+    background: linear-gradient(45deg, #2E294E, #820263, #D90368);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EADEDA;
+    font-size: 2rem;
+}
+
+.profile-link {
+    color: #EADEDA;
+    text-decoration: none;
+}
+
+#contact-section .profile-link {
+    margin: 1em;
+}
